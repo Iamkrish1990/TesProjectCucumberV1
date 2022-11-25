@@ -7,7 +7,7 @@ public class SampleTestStepDef {
 
     @Given("I hit sample web application")
     public void launchApplication(){
-        System.out.println("launching");
+        System.out.println("launching in check");
     }
 
     @Then("I verify sample test")
